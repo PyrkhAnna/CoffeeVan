@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.htp.by"
+	targetNamespace="http://www.htp.by" elementFormDefault="qualified">
+	<xs:element name="coffeevan" type="coffeeVanType" />
+	<xs:element name="purchaseList" type="purchaseListType" />
+	<xs:element name="purchase" type="purchaseType" />
+	<xs:complexType name="coffeeVanType">
+		<xs:sequence>
+			<xs:element name="purchaseList" type="purchaseListType" />
+			<xs:element name="budget" type="xs:string" />
+			<xs:element name="capacity" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="purchaseListType">
+		<xs:sequence>
+			<xs:element name="purchase" type="purchaseType" maxOccurs="unbounded" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="purchaseType">
+		<xs:sequence>
+			<xs:element name="naturalCoffee" type="naturalCoffee" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xs:element name="instantCoffee" type="instantCoffee" minOccurs="0"
+				maxOccurs="unbounded" />
+			<xs:element name="amount" type="xs:string"
+				maxOccurs="unbounded" />	
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="coffee">
+		<xs:sequence>
+			<xs:element name="brend" type="xs:string" />
+			<xs:element name="typeBeans" type="xs:string" />
+			<xs:element name="wrapper" type="xs:string" />
+			<xs:element name="weight" type="xs:string" />
+			<xs:element name="price" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="naturalCoffee">
+		<xs:complexContent>
+			<xs:extension base="coffee">
+				<xs:sequence>
+					<xs:element name="roastingDegree" type="xs:string" />
+					<xs:element name="gridingDegree" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+	<xs:complexType name="instantCoffee">
+		<xs:complexContent>
+			<xs:extension base="coffee">
+				<xs:sequence>
+					<xs:element name="production" type="xs:string" />
+				</xs:sequence>
+			</xs:extension>
+		</xs:complexContent>
+	</xs:complexType>
+
+</xs:schema>

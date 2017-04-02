@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coffeevan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://www.htp.by" xsi:schemaLocation="http://www.htp.by CoffeeVanXMLSchema.xsd">
+	<purchaseList>
+		<purchase>
+			<naturalCoffee>
+				<brend>Jacobs</brend>
+				<typeBeans>Arabica</typeBeans>
+				<wrapper>vacuum packed</wrapper>
+				<weight>20</weight>
+				<price>4.65</price>
+				<roastingDegree>French</roastingDegree>
+				<gridingDegree>pulverized</gridingDegree>
+			</naturalCoffee>
+			<amount>10</amount>
+		</purchase>
+		<purchase>
+			<naturalCoffee>
+				<brend>Lavazza</brend>
+				<typeBeans>Arabica, Robusta</typeBeans>
+				<wrapper>vacuum packed</wrapper>
+				<weight>500</weight>
+				<price>25.35</price>
+				<roastingDegree>light</roastingDegree>
+				<gridingDegree>fine espresso</gridingDegree>
+			</naturalCoffee>
+			<amount>1</amount>
+		</purchase>
+		<purchase>
+			<naturalCoffee>
+				<brend>Коnа</brend>
+				<typeBeans>Arabica</typeBeans>
+				<wrapper>vacuum packed</wrapper>
+				<weight>100</weight>
+				<price>15.32</price>
+				<roastingDegree>Italian</roastingDegree>
+				<gridingDegree>beans</gridingDegree>
+			</naturalCoffee>
+			<amount>2</amount>
+		</purchase>
+		<purchase>
+			<naturalCoffee>
+				<brend>Lavazza</brend>
+				<typeBeans>Arabica, Robusta</typeBeans>
+				<wrapper>vacuum packed</wrapper>
+				<weight>500</weight>
+				<price>25.35</price>
+				<roastingDegree>light</roastingDegree>
+				<gridingDegree>fine espresso</gridingDegree>
+			</naturalCoffee>
+			<amount>1</amount>
+		</purchase>
+		<purchase>
+			<instantCoffee>
+				<brend>Nescafe</brend>
+				<typeBeans>Robusta</typeBeans>
+				<wrapper>tin</wrapper>
+				<weight>500</weight>
+				<price>12.30</price>
+				<production>granulated form</production>
+			</instantCoffee>
+			<amount>2</amount>
+		</purchase>
+		<purchase>
+			<instantCoffee>
+				<brend>Nescafe</brend>
+				<typeBeans>Robusta</typeBeans>
+				<wrapper>sachet</wrapper>
+				<weight>20</weight>
+				<price>3.35</price>
+				<production>powder</production>
+			</instantCoffee>
+			<amount>10</amount>
+		</purchase>
+		<purchase>
+			<instantCoffee>
+				<brend>Jacobs</brend>
+				<typeBeans>Arabica</typeBeans>
+				<wrapper>glass jar</wrapper>
+				<weight>500</weight>
+				<price>15.49</price>
+				<production>granulated form</production>
+			</instantCoffee>
+			<amount>1</amount>
+		</purchase>
+	</purchaseList>
+	<budget>100</budget>
+	<capacity>5000</capacity>
+</coffeevan>
+
