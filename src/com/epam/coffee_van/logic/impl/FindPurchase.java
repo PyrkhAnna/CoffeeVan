@@ -20,7 +20,7 @@ public class FindPurchase implements CoffeeVanSeacher {
 	private TreeMap<Coffee, Integer> foundList;
 	private Coffee coffee;
 
-	{
+	public FindPurchase() {
 		foundList = new TreeMap<Coffee, Integer>();
 		purchaseList = new TreeMap<Coffee, Integer>();
 		coffee = null;
