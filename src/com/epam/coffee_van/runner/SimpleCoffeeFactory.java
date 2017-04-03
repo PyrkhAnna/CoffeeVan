@@ -1,4 +1,4 @@
-package com.epam.coffee_van.util;
+package com.epam.coffee_van.runner;
 
 import com.epam.coffee_van.entity.Coffee;
 import com.epam.coffee_van.entity.InstantCoffee;

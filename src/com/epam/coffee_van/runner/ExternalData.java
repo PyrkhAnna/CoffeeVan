@@ -1,7 +1,9 @@
-package com.epam.coffee_van.entity;
+package com.epam.coffee_van.runner;
 
 import java.math.BigDecimal;
 import java.util.TreeMap;
+
+import com.epam.coffee_van.entity.Coffee;
 
 public class ExternalData {
 	private TreeMap<Coffee, Integer> purchaseList;

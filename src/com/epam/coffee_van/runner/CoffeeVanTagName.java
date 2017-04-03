@@ -1,4 +1,4 @@
-package com.epam.coffee_van.entity;
+package com.epam.coffee_van.runner;
 
 public enum CoffeeVanTagName {
 	COFFEE_VAN, PURCHASE_LIST, PURCHASE, COFFEE, NATURAL_COFFEE, INSTANT_COFFEE, BREND, TYPE_BEANS, WRAPPER, WEIGHT, PRICE, ROASTING_DEGREE, GRIDING_DEGREE, PRODUCTION, AMOUNT, BUDGET, CAPACITY;

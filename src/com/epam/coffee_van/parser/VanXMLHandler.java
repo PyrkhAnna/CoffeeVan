@@ -8,10 +8,10 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 import com.epam.coffee_van.entity.Coffee;
-import com.epam.coffee_van.entity.ExternalData;
 import com.epam.coffee_van.entity.InstantCoffee;
 import com.epam.coffee_van.entity.NaturalCoffee;
-import com.epam.coffee_van.util.SimpleCoffeeFactory;
+import com.epam.coffee_van.runner.ExternalData;
+import com.epam.coffee_van.runner.SimpleCoffeeFactory;
 
 public class VanXMLHandler extends DefaultHandler {
 	private final static Logger Log = LogManager.getLogger();

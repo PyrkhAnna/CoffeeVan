@@ -1,4 +1,4 @@
-package com.epam.coffee_van.logic.impl;
+package com.epam.coffee_van.runner;
 
 import java.io.IOException;
 import org.apache.logging.log4j.LogManager;
@@ -7,8 +7,7 @@ import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
-import com.epam.coffee_van.entity.ExternalData;
-import com.epam.coffee_van.logic.CoffeeVanDataReader;
+
 import com.epam.coffee_van.parser.VanXMLHandler;
 import com.epam.coffee_van.util.Configuration;
 

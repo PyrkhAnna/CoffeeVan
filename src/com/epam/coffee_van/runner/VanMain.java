@@ -7,9 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import com.epam.coffee_van.entity.Coffee;
-import com.epam.coffee_van.entity.ExternalData;
 import com.epam.coffee_van.logic.CoffeeVanSeacher;
-import com.epam.coffee_van.logic.impl.DOMCoffeeVanReader;
 import com.epam.coffee_van.logic.impl.FindPurchase;
 import com.epam.coffee_van.logic.impl.Uploader;
 import com.epam.coffee_van.util.Configuration;

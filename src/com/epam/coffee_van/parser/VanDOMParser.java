@@ -10,10 +10,10 @@ import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import com.epam.coffee_van.entity.Coffee;
-import com.epam.coffee_van.entity.ExternalData;
 import com.epam.coffee_van.entity.InstantCoffee;
 import com.epam.coffee_van.entity.NaturalCoffee;
-import com.epam.coffee_van.util.SimpleCoffeeFactory;
+import com.epam.coffee_van.runner.ExternalData;
+import com.epam.coffee_van.runner.SimpleCoffeeFactory;
 
 public class VanDOMParser {
 	private final static Logger Log = LogManager.getLogger();
