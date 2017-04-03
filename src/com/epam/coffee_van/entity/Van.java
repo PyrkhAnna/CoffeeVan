@@ -82,6 +82,38 @@ public class Van {
 	public void setCapacity(int capacity) {
 		this.capacity = capacity;
 	}
+	
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + capacity;
+		result = prime * result + ((purchaseList == null) ? 0 : purchaseList.hashCode());
+		result = prime * result + weight;
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Van other = (Van) obj;
+		if (capacity != other.capacity)
+			return false;
+		if (purchaseList == null) {
+			if (other.purchaseList != null)
+				return false;
+		} else if (!purchaseList.equals(other.purchaseList))
+			return false;
+		if (weight != other.weight)
+			return false;
+		return true;
+	}
+
 	@Override
 	public String toString() {
 		return "Van [purchaseList=" + purchaseList + ", capacity=" + capacity + ", weight=" + weight + "]";

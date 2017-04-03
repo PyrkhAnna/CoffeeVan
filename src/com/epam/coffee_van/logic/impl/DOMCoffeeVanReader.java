@@ -18,7 +18,7 @@ public class DOMCoffeeVanReader implements CoffeeVanDataReader {
 	private final static Logger Log = LogManager.getLogger();
 	@Override
 	public ExternalData readCoffeeVanData(String path) throws IOException {
-		//ExternalData data = null;
+		
 		Log.info("Start to read data");
 		VanDOMParser parser= null;
 		DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -33,10 +33,7 @@ public class DOMCoffeeVanReader implements CoffeeVanDataReader {
 		} catch (SAXException|ParserConfigurationException e){
 			Log.debug(e);
 		}
-		System.out.println(parser.getData());
 		Log.info("Finish to read data");
-		//data = parser.getData();
 		return parser.getData();
 	}
-
 }

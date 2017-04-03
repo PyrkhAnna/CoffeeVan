@@ -46,6 +46,40 @@ public class ExternalData {
 	}
 
 	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((budget == null) ? 0 : budget.hashCode());
+		result = prime * result + capacity;
+		result = prime * result + ((purchaseList == null) ? 0 : purchaseList.hashCode());
+		return result;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		ExternalData other = (ExternalData) obj;
+		if (budget == null) {
+			if (other.budget != null)
+				return false;
+		} else if (!budget.equals(other.budget))
+			return false;
+		if (capacity != other.capacity)
+			return false;
+		if (purchaseList == null) {
+			if (other.purchaseList != null)
+				return false;
+		} else if (!purchaseList.equals(other.purchaseList))
+			return false;
+		return true;
+	}
+
+	@Override
 	public String toString() {
 		return "ExternalData [purchaseList=" + purchaseList + ", budget=" + budget + ", capacity=" + capacity + "]";
 	}

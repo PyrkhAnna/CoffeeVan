@@ -39,7 +39,6 @@ public class FindPurchase implements CoffeeVanSeacher {
 		if (value == null)
 			return null;
 		doSearch(type, value);
-
 		return foundList;
 	}
 
@@ -72,9 +71,7 @@ public class FindPurchase implements CoffeeVanSeacher {
 		case "AMOUNT":
 			seachByCoffeeAmount(Integer.parseInt(value));
 			break;
-
 		}
-
 	}
 
 	private void seachByCoffeeAmount(Integer amount) {
@@ -120,7 +117,6 @@ public class FindPurchase implements CoffeeVanSeacher {
 		Set<Coffee> coffeeSet = purchaseList.keySet();
 		Iterator<Coffee> iter = coffeeSet.iterator();
 		while (iter.hasNext()) {
-
 			coffee = iter.next();
 			Integer amount = purchaseList.get(coffee);
 			if (value.equals(coffee.getBrend()) || value.equals(coffee.getTypeBeans())
@@ -141,5 +137,4 @@ public class FindPurchase implements CoffeeVanSeacher {
 			}
 		}
 	}
-
 }

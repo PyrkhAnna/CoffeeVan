@@ -11,7 +11,6 @@ import com.epam.coffee_van.entity.Van;
 
 public class Uploader {
 	private final static Logger Log = LogManager.getLogger();
-
 	private Van van;
 	private TreeMap<Coffee, Integer> stockList;
 	private BigDecimal budget;
@@ -29,7 +28,6 @@ public class Uploader {
 		Integer amount;
 		BigDecimal cost;
 		if (stockList != null && van != null) {
-			
 			Iterator<Map.Entry<Coffee, Integer>> entries = stockList.entrySet().iterator();
 			while (entries.hasNext() && !stockList.isEmpty() && checkBudget(expenses)) {
 				Map.Entry<Coffee, Integer> entry = entries.next();
@@ -38,15 +36,13 @@ public class Uploader {
 				cost = expenses.add(coffee.getPrice().multiply(new BigDecimal(amount))); ///!!!!
 				if (checkBudget(cost)) {
 					van.addPurchase(coffee, amount);
-					expenses = cost;  //!!!
-					entries.remove();//!!
+					expenses = cost;  
+					entries.remove();
 					Log.info("Uploader add Coffee to Van");
 				}
 			}
-			
 		}
 	}
-
 	
 	public Van getVan() {
 		return van;
