@@ -1087,3 +1087,510 @@
 [INFO ] 2017-04-02 23:13:05.437 [main] Uploader - Uploader add Coffee to Van
 [INFO ] 2017-04-02 23:13:06.589 [main] Van - Load Coffee to Van
 [INFO ] 2017-04-02 23:13:06.589 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:44:32.007 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 10:44:32.038 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 10:44:32.040 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 10:44:32.040 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 10:44:32.041 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 10:44:32.041 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.041 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.042 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.042 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.042 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.043 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.043 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.043 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.043 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.043 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.043 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.044 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.044 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.044 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.044 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.044 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.045 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.045 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.045 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.045 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.045 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.045 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:32.045 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.046 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.046 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.046 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:32.046 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.046 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:32.046 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.046 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.047 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.047 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:32.047 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.047 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:32.047 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.047 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.047 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.047 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:32.048 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:32.048 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:32.048 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:32.048 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:32.048 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 10:44:32.049 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 10:44:32.051 [main] Van - New Van is created
+[INFO ] 2017-04-03 10:44:32.052 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:44:32.053 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:44:32.053 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:44:32.053 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:44:32.053 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:44:32.053 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:44:53.447 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 10:44:53.481 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 10:44:53.483 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 10:44:53.484 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 10:44:53.484 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 10:44:53.484 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.485 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.485 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.485 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.485 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.485 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.486 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.486 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.486 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.486 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.486 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.486 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.487 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.487 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.487 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.487 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.487 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.487 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.488 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.488 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.488 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.488 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:44:53.488 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.489 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.489 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.489 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:53.490 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.490 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:53.490 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.490 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.490 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.491 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:53.491 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.491 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:53.491 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.491 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.492 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.492 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:53.492 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:44:53.492 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:44:53.492 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:44:53.492 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:44:53.493 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 10:44:53.493 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 10:44:53.496 [main] Van - New Van is created
+[INFO ] 2017-04-03 10:44:53.497 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:44:53.497 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:44:53.497 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:44:53.497 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:44:53.497 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:44:53.497 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:53:03.448 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 10:53:03.481 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 10:53:03.483 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 10:53:03.484 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 10:53:03.484 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 10:53:03.484 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.485 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.485 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.485 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.485 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.485 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.486 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.486 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.486 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.486 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.486 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.486 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.487 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.487 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.487 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.487 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.487 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.487 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.487 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.488 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.488 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.488 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:03.488 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.488 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.488 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.489 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:03.489 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.489 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:03.489 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.489 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.489 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.489 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:03.490 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.490 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:03.490 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.490 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.490 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.491 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:03.491 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:03.491 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:03.491 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:03.491 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:03.492 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 10:53:03.492 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 10:53:03.494 [main] Van - New Van is created
+[INFO ] 2017-04-03 10:53:03.494 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:53:03.495 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:53:03.495 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:53:03.495 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:53:03.495 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:53:03.495 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:53:55.335 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 10:53:55.369 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 10:53:55.371 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 10:53:55.371 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 10:53:55.372 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 10:53:55.372 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.372 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.373 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.373 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.373 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.373 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.373 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.373 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.374 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.374 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.374 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.374 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.374 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.374 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.374 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.374 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.375 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.375 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.375 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.375 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.375 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.375 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:53:55.375 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.376 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.376 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.376 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:55.376 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.376 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:55.376 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.376 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.377 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.377 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:55.377 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.377 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:55.378 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.378 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.378 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.378 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:55.379 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:53:55.379 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:53:55.379 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:53:55.379 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:53:55.379 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 10:53:55.380 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 10:53:55.383 [main] Van - New Van is created
+[INFO ] 2017-04-03 10:53:55.383 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:53:55.384 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:53:55.384 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:53:55.384 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:53:55.384 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:53:55.384 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:55:08.351 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 10:55:08.381 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 10:55:08.383 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 10:55:08.383 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 10:55:08.383 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 10:55:08.384 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.384 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.384 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.384 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.384 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.385 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.385 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.385 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.385 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.385 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.385 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.385 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.386 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.386 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.386 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.386 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.386 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.386 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.386 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.386 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.386 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.387 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:55:08.387 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.387 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.387 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.387 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:55:08.387 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.387 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:55:08.388 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.388 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.388 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.388 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:55:08.388 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.388 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:55:08.388 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.389 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.389 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.389 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:55:08.389 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:55:08.389 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:55:08.389 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:55:08.389 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:55:08.390 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 10:55:08.390 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 10:55:08.391 [main] Van - New Van is created
+[INFO ] 2017-04-03 10:55:08.392 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:55:08.392 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:55:08.392 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:55:08.392 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:55:08.392 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:55:08.393 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:59:13.625 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 10:59:13.656 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 10:59:13.657 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 10:59:13.658 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 10:59:13.658 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 10:59:13.658 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.658 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.659 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.659 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.659 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.659 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.659 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.660 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.660 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.660 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.660 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.660 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.660 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.661 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.661 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.661 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.661 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.661 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.661 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.661 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.662 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.662 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 10:59:13.662 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.662 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.663 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.663 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:59:13.663 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.663 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:59:13.663 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.663 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.664 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.664 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:59:13.664 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.664 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:59:13.664 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.664 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.665 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.665 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:59:13.665 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 10:59:13.665 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 10:59:13.665 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 10:59:13.665 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 10:59:13.666 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 10:59:13.666 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 10:59:13.669 [main] Van - New Van is created
+[INFO ] 2017-04-03 10:59:13.669 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:59:13.669 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:59:13.669 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:59:13.670 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 10:59:13.670 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 10:59:13.670 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:04:24.743 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 11:04:24.775 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 11:04:24.777 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 11:04:24.777 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 11:04:24.777 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 11:04:24.778 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.778 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.779 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.779 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.779 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.779 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.779 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.779 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.780 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.780 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.780 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.780 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.780 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.780 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.780 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.781 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.781 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.781 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.781 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.781 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.781 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.781 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:04:24.782 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.782 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.782 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.782 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:04:24.782 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.783 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:04:24.783 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.783 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.783 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.783 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:04:24.783 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.783 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:04:24.783 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.784 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.784 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.784 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:04:24.784 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:04:24.784 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:04:24.784 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:04:24.784 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:04:24.785 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 11:04:24.785 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 11:04:24.786 [main] Van - New Van is created
+[INFO ] 2017-04-03 11:04:24.787 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:04:24.787 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:04:24.787 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:04:24.787 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:04:24.787 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:04:24.787 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:14:34.595 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 11:14:34.631 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 11:14:34.634 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 11:14:34.634 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 11:14:34.634 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 11:14:34.635 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.635 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.636 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.636 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.636 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.637 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.637 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.637 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.637 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.637 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.638 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.638 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.638 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.638 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.638 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.638 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.639 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.639 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.639 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.639 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.639 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.639 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:14:34.640 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.640 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.640 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.640 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:14:34.641 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.641 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:14:34.641 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.641 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.641 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.641 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:14:34.642 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.642 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:14:34.642 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.642 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.642 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.642 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:14:34.642 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:14:34.643 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:14:34.643 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:14:34.643 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:14:34.643 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 11:14:34.644 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 11:14:34.646 [main] Van - New Van is created
+[INFO ] 2017-04-03 11:14:34.647 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:14:34.647 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:14:34.647 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:14:34.647 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:14:34.647 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:14:34.647 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:14:34.649 [main] FindPurchase - Add found Coffee by Weight
+[INFO ] 2017-04-03 11:14:34.650 [main] FindPurchase - Add found Coffee by Weight
+[INFO ] 2017-04-03 11:15:04.536 [main] DOMCoffeeVanReader - Start to read data
+[INFO ] 2017-04-03 11:15:04.566 [main] VanDOMParser - VanDOMParser is created
+[INFO ] 2017-04-03 11:15:04.568 [main] VanDOMParser - Budget is set
+[INFO ] 2017-04-03 11:15:04.569 [main] VanDOMParser - capacity is set
+[INFO ] 2017-04-03 11:15:04.569 [main] VanDOMParser - StockList is created
+[INFO ] 2017-04-03 11:15:04.569 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.569 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.570 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.570 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.570 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.570 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.570 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.571 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.571 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.571 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.571 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.571 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.571 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.571 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.571 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.572 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.572 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.572 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.572 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.572 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.572 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.572 [main] NaturalCoffee - New NaturalCoffee is created
+[INFO ] 2017-04-03 11:15:04.572 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.573 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.573 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.573 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:15:04.573 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.573 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:15:04.573 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.573 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.574 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.574 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:15:04.574 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.574 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:15:04.574 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.574 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.574 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.574 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:15:04.575 [main] Coffee - New coffee is created
+[INFO ] 2017-04-03 11:15:04.575 [main] InstantCoffee - New InstantCoffee is created
+[INFO ] 2017-04-03 11:15:04.575 [main] VanDOMParser - Coffee is read
+[INFO ] 2017-04-03 11:15:04.575 [main] VanDOMParser - Amount is read
+[INFO ] 2017-04-03 11:15:04.575 [main] DOMCoffeeVanReader - Finish to read document
+[INFO ] 2017-04-03 11:15:04.576 [main] DOMCoffeeVanReader - Finish to read data
+[INFO ] 2017-04-03 11:15:04.577 [main] Van - New Van is created
+[INFO ] 2017-04-03 11:15:04.577 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:15:04.578 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:15:04.578 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:15:04.578 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:15:04.578 [main] Van - Load Coffee to Van
+[INFO ] 2017-04-03 11:15:04.578 [main] Uploader - Uploader add Coffee to Van
+[INFO ] 2017-04-03 11:15:04.579 [main] FindPurchase - Add found Coffee by Price

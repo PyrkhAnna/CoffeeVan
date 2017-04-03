@@ -5,10 +5,8 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import com.epam.coffee_van.entity.Coffee;
 import com.epam.coffee_van.entity.InstantCoffee;
 import com.epam.coffee_van.entity.NaturalCoffee;
@@ -20,51 +18,32 @@ public class FindPurchase implements CoffeeVanSeacher {
 	private final static Logger Log = LogManager.getLogger();
 	private TreeMap<Coffee, Integer> purchaseList;
 	private TreeMap<Coffee, Integer> foundList;
-	private Set<Coffee> coffeeSet = null;
-	private Coffee coffee = null;
-	private Integer amount = null;
+	private Coffee coffee;
 
-	public static TreeMap<Coffee, Integer> sortPurchase(TreeMap<Coffee, Integer> purchaseList, String type,
-			String start, String end) {
-		Van van;
-		TreeMap<Coffee, Integer> sortList;
-		BigDecimal budget;
-		BigDecimal expenses;
-		Coffee coffee;
-		Integer amount;
-		BigDecimal cost;
-		// определить тип по которому будем сортировать
-		//
-		//
-		Iterator<Map.Entry<Coffee, Integer>> entries = purchaseList.entrySet().iterator();
-		while (entries.hasNext() && !purchaseList.isEmpty() && purchaseList != null) {
-			Map.Entry<Coffee, Integer> entry = entries.next();
-			coffee = entry.getKey();
-			amount = entry.getValue();
-			// cost = expenses.add(coffee.getPrice().multiply(new
-			// BigDecimal(amount))); ///!!!!
-
-			entries.remove();// !!
-			Log.info("Uploader add Coffee to Van");
-
-		}
-
-		return purchaseList;
+	{
+		foundList = new TreeMap<Coffee, Integer>();
+		purchaseList = new TreeMap<Coffee, Integer>();
+		coffee = null;
 	}
 
 	@Override
-	public TreeMap<Coffee, Integer> readCoffeeVanData(Van van, String type, String value) {
+	public TreeMap<Coffee, Integer> findPurchase(Van van, String type, String value) {
 		if (van != null)
 			purchaseList = van.getPurchaseList();
 		else
 			return null;
 		if (purchaseList.isEmpty() && purchaseList == null)
 			return null;
-		if (type == null && type.isEmpty())
+		if (type == null)
 			return null;
-		if (value == null && value.isEmpty())
+		if (value == null)
 			return null;
+		doSearch(type, value);
 
+		return foundList;
+	}
+
+	private void doSearch(String type, String value) {
 		switch (type.toUpperCase()) {
 		case "BREND":
 			seachCoffeeByOther(value);
@@ -96,24 +75,6 @@ public class FindPurchase implements CoffeeVanSeacher {
 
 		}
 
-		if (!purchaseList.isEmpty() && purchaseList != null) {
-
-			Iterator<Map.Entry<Coffee, Integer>> entries = purchaseList.entrySet().iterator();
-			while (entries.hasNext()) {
-				Map.Entry<Coffee, Integer> entry = entries.next();
-				coffee = entry.getKey();
-				amount = entry.getValue();
-				// cost = expenses.add(coffee.getPrice().multiply(new
-				// BigDecimal(amount))); ///!!!!
-
-				entries.remove();// !!
-				Log.info("Uploader add Coffee to Van");
-
-			}
-
-		}
-
-		return null;
 	}
 
 	private void seachByCoffeeAmount(Integer amount) {
@@ -121,34 +82,63 @@ public class FindPurchase implements CoffeeVanSeacher {
 			Iterator<Map.Entry<Coffee, Integer>> entries = purchaseList.entrySet().iterator();
 			while (entries.hasNext()) {
 				Map.Entry<Coffee, Integer> entry = entries.next();
-				if (amount.equals(entry.getValue())){
+				if (amount.equals(entry.getValue())) {
 					foundList.put(entry.getKey(), amount);
+					Log.info("Add found Coffee by Amount");
 				}
-				// Log.info("Uploader add Coffee to Van");
 			}
 		}
 	}
 
 	private void seachCoffeeByNumeric(BigDecimal price) {
-
+		Set<Coffee> coffeeSet = purchaseList.keySet();
+		Iterator<Coffee> iter = coffeeSet.iterator();
+		while (iter.hasNext()) {
+			coffee = iter.next();
+			Integer amount = purchaseList.get(coffee);
+			if (price.equals(coffee.getPrice())) {
+				foundList.put(coffee, amount);
+				Log.info("Add found Coffee by Price");
+			}
+		}
 	}
 
 	private void seachCoffeeByNumeric(Integer weight) {
-
+		Set<Coffee> coffeeSet = purchaseList.keySet();
+		Iterator<Coffee> iter = coffeeSet.iterator();
+		while (iter.hasNext()) {
+			coffee = iter.next();
+			Integer amount = purchaseList.get(coffee);
+			if (weight.equals(coffee.getWeight())) {
+				foundList.put(coffee, amount);
+				Log.info("Add found Coffee by Weight");
+			}
+		}
 	}
 
 	private void seachCoffeeByOther(String value) {
-		coffeeSet = purchaseList.keySet();
+		Set<Coffee> coffeeSet = purchaseList.keySet();
 		Iterator<Coffee> iter = coffeeSet.iterator();
 		while (iter.hasNext()) {
-			
+
 			coffee = iter.next();
-			if (coffee.getClass() == obj.getClass())			
-			if (amount.equals(coffee.getBrend())||amount.equals(coffee.getTypeBeans())||amount.equals(coffee.getWrapper())||
-					amount.equals(coffee.)||amount.equals(coffee.getBrend())||){
-				//foundList.put(entry.getKey(), amount);
+			Integer amount = purchaseList.get(coffee);
+			if (value.equals(coffee.getBrend()) || value.equals(coffee.getTypeBeans())
+					|| value.equals(coffee.getWrapper())) {
+				foundList.put(coffee, amount);
+				Log.info("Add found NaturalCoffee");
+			} else if (coffee.getClass() == NaturalCoffee.class) {
+				if (value.equals(((NaturalCoffee) coffee).getRoastingDegree())
+						|| value.equals(((NaturalCoffee) coffee).getGridingDegree())) {
+					foundList.put(coffee, amount);
+					Log.info("Add found NaturalCoffee");
+				} else if (coffee.getClass() == InstantCoffee.class) {
+					if (value.equals(((InstantCoffee) coffee).getProduction())) {
+						foundList.put(coffee, amount);
+						Log.info("Add found InstantCoffee");
+					}
+				}
 			}
-			// Log.info("Uploader add Coffee to Van");
 		}
 	}
 

@@ -47,19 +47,85 @@ public class Uploader {
 		}
 	}
 
+	
+	public Van getVan() {
+		return van;
+	}
+
+	public void setVan(Van van) {
+		this.van = van;
+	}
+
+	public TreeMap<Coffee, Integer> getStockList() {
+		return stockList;
+	}
+
+	public void setStockList(TreeMap<Coffee, Integer> stockList) {
+		this.stockList = stockList;
+	}
+
+	public BigDecimal getBudget() {
+		return budget;
+	}
+
+	public void setBudget(BigDecimal budget) {
+		this.budget = budget;
+	}
+
+	public BigDecimal getExpenses() {
+		return expenses;
+	}
+
+	public void setExpenses(BigDecimal expenses) {
+		this.expenses = expenses;
+	}
+
 	private boolean checkBudget(BigDecimal cost) {
 		return budget.compareTo(cost) == 1;
 	}
-/*
-	private Coffee findMinWeight(TreeMap<Coffee, Integer> purchaseList) {
 
-		return null;
+	@Override
+	public int hashCode() {
+		final int prime = 31;
+		int result = 1;
+		result = prime * result + ((budget == null) ? 0 : budget.hashCode());
+		result = prime * result + ((expenses == null) ? 0 : expenses.hashCode());
+		result = prime * result + ((stockList == null) ? 0 : stockList.hashCode());
+		result = prime * result + ((van == null) ? 0 : van.hashCode());
+		return result;
 	}
 
-	private Coffee findMinPrice(TreeMap<Coffee, Integer> purchaseList) {
-
-		return null;
-	}*/
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Uploader other = (Uploader) obj;
+		if (budget == null) {
+			if (other.budget != null)
+				return false;
+		} else if (!budget.equals(other.budget))
+			return false;
+		if (expenses == null) {
+			if (other.expenses != null)
+				return false;
+		} else if (!expenses.equals(other.expenses))
+			return false;
+		if (stockList == null) {
+			if (other.stockList != null)
+				return false;
+		} else if (!stockList.equals(other.stockList))
+			return false;
+		if (van == null) {
+			if (other.van != null)
+				return false;
+		} else if (!van.equals(other.van))
+			return false;
+		return true;
+	}
 
 	@Override
 	public String toString() {
