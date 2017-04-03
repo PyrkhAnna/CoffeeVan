@@ -28,16 +28,20 @@ public class FindPurchase implements CoffeeVanSeacher {
 
 	@Override
 	public TreeMap<Coffee, Integer> findPurchase(Van van, String type, String value) {
-		if (van != null)
+		if (van != null) {
 			purchaseList = van.getPurchaseList();
-		else
+		} else {
 			return null;
-		if (purchaseList.isEmpty() && purchaseList == null)
+		}
+		if (purchaseList.isEmpty() && purchaseList == null) {
 			return null;
-		if (type == null)
+		}
+		if (type == null) {
 			return null;
-		if (value == null)
+		}
+		if (value == null) {
 			return null;
+		}
 		doSearch(type, value);
 		return foundList;
 	}
@@ -123,15 +127,20 @@ public class FindPurchase implements CoffeeVanSeacher {
 					|| value.equals(coffee.getWrapper())) {
 				foundList.put(coffee, amount);
 				Log.info("Add found NaturalCoffee");
-			} else if (coffee.getClass() == NaturalCoffee.class) {
-				if (value.equals(((NaturalCoffee) coffee).getRoastingDegree())
-						|| value.equals(((NaturalCoffee) coffee).getGridingDegree())) {
-					foundList.put(coffee, amount);
-					Log.info("Add found NaturalCoffee");
-				} else if (coffee.getClass() == InstantCoffee.class) {
-					if (value.equals(((InstantCoffee) coffee).getProduction())) {
+			} else {
+				if (coffee.getClass() == NaturalCoffee.class) {
+
+					if (value.equals(((NaturalCoffee) coffee).getRoastingDegree())
+							|| value.equals(((NaturalCoffee) coffee).getGridingDegree())) {
 						foundList.put(coffee, amount);
-						Log.info("Add found InstantCoffee");
+						Log.info("Add found NaturalCoffee");
+					} else {
+						if (coffee.getClass() == InstantCoffee.class) {
+							if (value.equals(((InstantCoffee) coffee).getProduction())) {
+								foundList.put(coffee, amount);
+								Log.info("Add found InstantCoffee");
+							}
+						}
 					}
 				}
 			}

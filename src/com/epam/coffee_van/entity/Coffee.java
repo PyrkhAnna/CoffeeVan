@@ -5,20 +5,20 @@ import java.math.BigDecimal;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class Coffee implements Comparable<Coffee> {
+public abstract class Coffee implements Comparable<Coffee> {
+	private final static Logger Log = LogManager.getLogger("Coffee.class");
 	private String brend;
 	private String typeBeans;
 	private String wrapper;
 	private int weight;
 	private BigDecimal price;
-	private final static Logger Log = LogManager.getLogger();
-
-	protected Coffee() {
+	
+	public Coffee() {
 		super();
 		Log.info("New coffee is created");
 	}
 
-	protected Coffee(String brend, String typeBeans, String wrapper, int weight, BigDecimal price) {
+	public Coffee(String brend, String typeBeans, String wrapper, int weight, BigDecimal price) {
 		super();
 		this.brend = brend;
 		this.typeBeans = typeBeans;

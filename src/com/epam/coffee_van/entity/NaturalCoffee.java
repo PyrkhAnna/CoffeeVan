@@ -6,10 +6,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class NaturalCoffee extends Coffee {
+	private final static Logger Log = LogManager.getLogger("NaturalCoffee.class");
 	private String roastingDegree;
 	private String gridingDegree;
-	private final static Logger Log = LogManager.getLogger();
-
+	
 	public NaturalCoffee() {
 		super();
 		Log.info("New NaturalCoffee is created");

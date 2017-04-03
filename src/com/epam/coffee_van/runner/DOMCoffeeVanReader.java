@@ -14,7 +14,7 @@ import com.epam.coffee_van.parser.VanDOMParser;
 import com.epam.coffee_van.util.Configuration;
 
 public class DOMCoffeeVanReader implements CoffeeVanDataReader {
-	private final static Logger Log = LogManager.getLogger();
+	private final static Logger Log = LogManager.getLogger("DOMCoffeeVanReader.class");
 	@Override
 	public ExternalData readCoffeeVanData(String path) throws IOException {
 		

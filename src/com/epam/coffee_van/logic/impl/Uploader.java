@@ -10,7 +10,7 @@ import com.epam.coffee_van.entity.Coffee;
 import com.epam.coffee_van.entity.Van;
 
 public class Uploader {
-	private final static Logger Log = LogManager.getLogger();
+	private final static Logger Log = LogManager.getLogger("Uploader.class");
 	private Van van;
 	private TreeMap<Coffee, Integer> stockList;
 	private BigDecimal budget;
@@ -33,7 +33,7 @@ public class Uploader {
 				Map.Entry<Coffee, Integer> entry = entries.next();
 				coffee = entry.getKey();
 				amount = entry.getValue();
-				cost = expenses.add(coffee.getPrice().multiply(new BigDecimal(amount))); ///!!!!
+				cost = expenses.add(coffee.getPrice().multiply(new BigDecimal(amount))); 
 				if (checkBudget(cost)) {
 					van.addPurchase(coffee, amount);
 					expenses = cost;  

@@ -14,7 +14,7 @@ import com.epam.coffee_van.runner.ExternalData;
 import com.epam.coffee_van.runner.SimpleCoffeeFactory;
 
 public class VanXMLHandler extends DefaultHandler {
-	private final static Logger Log = LogManager.getLogger();
+	private final static Logger Log = LogManager.getLogger("VanXMLHandler.class");
 	private SimpleCoffeeFactory factory;
 	private Coffee coffee;
 	private String value;
@@ -27,9 +27,9 @@ public class VanXMLHandler extends DefaultHandler {
 	}
 
 	private void addPurchase() {
-		if (purchaseList.get(coffee) == null)
+		if (purchaseList.get(coffee) == null) {
 			purchaseList.put(coffee, amount);
-		else {
+		} else {
 			amount = purchaseList.get(coffee) + amount;
 			purchaseList.put(coffee, amount);
 		}

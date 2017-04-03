@@ -16,7 +16,7 @@ import com.epam.coffee_van.runner.ExternalData;
 import com.epam.coffee_van.runner.SimpleCoffeeFactory;
 
 public class VanDOMParser {
-	private final static Logger Log = LogManager.getLogger();
+	private final static Logger Log = LogManager.getLogger("VanDOMParser.class");
 	private Document document;
 	private ExternalData data;
 	private SimpleCoffeeFactory factory;
@@ -32,7 +32,6 @@ public class VanDOMParser {
 
 	public ExternalData getData() {
 		return data;
-
 	}
 
 	public void readData() {
@@ -82,10 +81,9 @@ public class VanDOMParser {
 
 	private void fillStockList(Element element) {
 		String s = element.getNodeName().toUpperCase();
-
-		if (s != null && (s.equalsIgnoreCase("NaturalCoffee") || s.equalsIgnoreCase("InstantCoffee")))
+		if (s != null && (s.equalsIgnoreCase("NaturalCoffee") || s.equalsIgnoreCase("InstantCoffee"))) {
 			coffee = factory.createCoffee(s);
-
+		}
 		switch (s) {
 		case "NATURALCOFFEE":
 			buildCoffee(element, element.getNodeName());
@@ -103,9 +101,9 @@ public class VanDOMParser {
 	}
 
 	private void addPurchase(int amount) {
-		if (stockList.get(coffee) == null)
+		if (stockList.get(coffee) == null) {
 			stockList.put(coffee, amount);
-		else {
+		} else {
 			amount = stockList.get(coffee) + amount;
 			stockList.put(coffee, amount);
 		}

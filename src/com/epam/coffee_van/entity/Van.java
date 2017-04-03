@@ -5,11 +5,10 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Van {
-	
+	private final static Logger Log = LogManager.getLogger("Van.class");
 	private TreeMap<Coffee, Integer> purchaseList;
 	private int capacity;
 	private int weight;
-	private final static Logger Log = LogManager.getLogger();
 
 	public Van() {
 		purchaseList = new TreeMap<Coffee, Integer>();
@@ -32,39 +31,22 @@ public class Van {
 		Log.info("New Van is created");
 	}
 
-	public void addPurchase(Coffee coffee, Integer amount) {
+	public boolean addPurchase(Coffee coffee, Integer amount) {
 		if (checkCoffee(coffee)) {
-			if (checkAmount(amount)) {
-				if (checkWeight(coffee.getWeight() * amount)) {
-					loadToVan(coffee, amount);
-				} else {Log.info("Failure");}
-			} 
+			if (ifCoffeeIsInVan(coffee, amount)) {
+				return true;
+			} else {
+				Log.info("Failure");
+				return false;
+			}
 		} else {
-			if (checkAmount(amount)) {
-				if (checkWeight(coffee.getWeight() * amount)) {
-					amount = +purchaseList.get(coffee);
-					loadToVan(coffee, amount);
-				} else {Log.info("Failure");}
+			if (ifCoffeeIsntInVan(coffee, amount)) {
+				return true;
+			} else {
+				Log.info("Failure");
+				return false;
 			}
 		}
-	}
-
-	private void loadToVan(Coffee coffee, Integer amount) {
-		purchaseList.put(coffee, amount);
-		this.weight = this.weight + coffee.getWeight()*amount;
-		Log.info("Load Coffee to Van");
-	}
-	private boolean checkWeight(int weight) {
-		int check = this.weight + weight;
-		return check <= this.capacity;
-	}
-
-	private boolean checkAmount(Integer amount) {
-		return amount != null && amount != 0 && amount > 0;
-	}
-
-	private boolean checkCoffee(Coffee coffee) {
-		return coffee != null && !purchaseList.containsKey(coffee);
 	}
 
 	public TreeMap<Coffee, Integer> getPurchaseList() {
@@ -82,7 +64,7 @@ public class Van {
 	public void setCapacity(int capacity) {
 		this.capacity = capacity;
 	}
-	
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -117,6 +99,51 @@ public class Van {
 	@Override
 	public String toString() {
 		return "Van [purchaseList=" + purchaseList + ", capacity=" + capacity + ", weight=" + weight + "]";
+	}
+
+	private void loadToVan(Coffee coffee, Integer amount) {
+		purchaseList.put(coffee, amount);
+		this.weight = this.weight + coffee.getWeight() * amount;
+		Log.info("Load Coffee to Van");
+	}
+
+	private boolean checkWeight(int weight) {
+		int check = this.weight + weight;
+		return check <= this.capacity;
+	}
+
+	private boolean checkAmount(Integer amount) {
+		return amount != null && amount != 0 && amount > 0;
+	}
+
+	private boolean checkCoffee(Coffee coffee) {
+		return coffee != null && !purchaseList.containsKey(coffee);
+	}
+	private boolean ifCoffeeIsInVan(Coffee coffee, Integer amount) {
+		if (checkAmount(amount)) {
+			if (checkWeight(coffee.getWeight() * amount)) {
+				loadToVan(coffee, amount);
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
+	}
+
+	private boolean ifCoffeeIsntInVan(Coffee coffee, Integer amount) {
+		if (checkAmount(amount)) {
+			if (checkWeight(coffee.getWeight() * amount)) {
+				amount = +purchaseList.get(coffee);
+				loadToVan(coffee, amount);
+				return true;
+			} else {
+				return false;
+			}
+		} else {
+			return false;
+		}
 	}
 
 }

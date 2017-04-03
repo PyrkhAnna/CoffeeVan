@@ -6,9 +6,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class InstantCoffee extends Coffee {
+	private final static Logger Log = LogManager.getLogger("InstantCoffee.class");
 	private String production;
-	private final static Logger Log = LogManager.getLogger();
-
+	
 	public InstantCoffee() {
 		super();
 		Log.info("New InstantCoffee is created");

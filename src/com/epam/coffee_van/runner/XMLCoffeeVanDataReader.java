@@ -12,7 +12,7 @@ import com.epam.coffee_van.parser.VanXMLHandler;
 import com.epam.coffee_van.util.Configuration;
 
 public class XMLCoffeeVanDataReader implements CoffeeVanDataReader {
-	private final static Logger Log = LogManager.getLogger();
+	private final static Logger Log = LogManager.getLogger("XMLCoffeeVanDataReader.class");
 
 	@Override
 	public ExternalData readCoffeeVanData(String path) throws IOException {
