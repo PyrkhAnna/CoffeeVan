@@ -6,7 +6,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Configuration {
-	private final static Logger log = LogManager.getLogger();
+	private final static Logger log = LogManager.getLogger("Configuration.class");
 
 	static private ResourceBundle resBundle;
 

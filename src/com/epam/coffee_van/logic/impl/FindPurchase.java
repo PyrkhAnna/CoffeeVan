@@ -129,7 +129,6 @@ public class FindPurchase implements CoffeeVanSeacher {
 				Log.info("Add found NaturalCoffee");
 			} else {
 				if (coffee.getClass() == NaturalCoffee.class) {
-
 					if (value.equals(((NaturalCoffee) coffee).getRoastingDegree())
 							|| value.equals(((NaturalCoffee) coffee).getGridingDegree())) {
 						foundList.put(coffee, amount);
