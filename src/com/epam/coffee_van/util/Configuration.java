@@ -11,7 +11,7 @@ public class Configuration {
 	static private ResourceBundle resBundle;
 
 	static {
-		resBundle = ResourceBundle.getBundle("log4j2");
+		resBundle = ResourceBundle.getBundle("log4j");
 	}
 
 	public static String getKey(String key) {
@@ -19,7 +19,7 @@ public class Configuration {
 			String value = resBundle.getString(key);
 			return value;
 		} catch (MissingResourceException e) {
-			log.error("Missing log4j2.properties file");
+			log.error("Missing log4j.properties file");
 			return null;
 		}
 	}
